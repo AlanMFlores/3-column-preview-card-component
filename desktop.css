@@ -1,0 +1,32 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: auto ;
+    max-width: 280px;
+    text-align: left;
+    padding: 50px 30px;
+}
+
+.sedans {
+    border-radius: 5px 0 0 5px;
+}
+
+.luxury {
+    border-radius: 0 5px 5px 0;
+}
+
+.learn-more {
+    transition: .5s;
+}
+
+.learn-more:hover {
+    background-color: transparent;
+    box-shadow: inset 0 0 0 2px #fff;
+    color: #fff;
+    transition: .5s;
+}
